@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" id="prefix__item_pattern" width="1388" height="749" data-name="item/pattern" viewBox="0 0 1388 749">
+    <defs>
+        <linearGradient id="prefix__linear-gradient" x1="1" x2="0" y1=".5" y2=".5" gradientUnits="objectBoundingBox">
+            <stop offset="0" stop-color="#60fffb"/>
+            <stop offset=".162" stop-color="#63fffb"/>
+            <stop offset=".32" stop-color="#6ffffb"/>
+            <stop offset=".478" stop-color="#83fffb"/>
+            <stop offset=".635" stop-color="#9ffffc"/>
+            <stop offset=".792" stop-color="#c2fffd"/>
+            <stop offset=".946" stop-color="#eefffe"/>
+            <stop offset="1" stop-color="#fff"/>
+        </linearGradient>
+    </defs>
+    <path xmlns="http://www.w3.org/2000/svg" id="prefix__Path_17537" d="M1734.506 788.44v273.887c-.541.6-1.05 1.177-1.592 1.781-97.568 108.537-200.994 213.321-315.594 304.012-92.889 73.482-202.554 148.809-322.788 164.969-263.419 35.405-544.155-152.149-705.644-314.542-23.493-23.667-57.363-80-35.144-113.945 23.557-35.978 69.014-9.543 92.507 12.12 128.192 118.08 283 224.518 458.874 252.256 62.043 9.8 97.218 11.134 159.675-6.744 121.125-34.642 228.084-124.6 320.719-206.418 125.454-110.827 242.091-234.538 347.395-365.374.542-.666 1.086-1.334 1.592-2.002z" fill="url(#prefix__linear-gradient)" data-name="Path 17537" transform="translate(-346.506 -788.44)"/>
+</svg>

@@ -1,0 +1,719 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Taskulu</title>
+  <link rel="stylesheet" href="Showcase.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Roboto:wght@500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+  develop 
+  <div class="container-fluid">
+    <nav class="navbar" role="navigation">
+        <div class="navbar-container navbar-container-large">
+          <div class="navbar-content">
+            <div class="navbar-block-branding">
+              <a href="https://taskulu.com/" class="navbar-brand">
+                <svg xmlns="http://www.w3.org/2000/svg" id="prefix__logo_taskulu" width="199px" height="42px" data-name="logo/taskulu" class="en-logo" viewBox="0 0 160 33.993">  
+                  <g id="prefix__Group_16018" data-name="Group 16018" transform="translate(0 0)">
+                  <path class="change-color" d="M138.4,5.4c-0.7,0-1.4,0.5-1.4,1.3c0,0,0,0,0,0v19.8c0.1,0.8,0.8,1.3,1.6,1.3c0.7-0.1,1.2-0.6,1.3-1.3V6.7 C139.8,6,139.2,5.4,138.4,5.4C138.4,5.4,138.4,5.4,138.4,5.4L138.4,5.4z"></path>
+                  <path class="change-color" d="M64.7,24.5c-0.6-0.4-1.4-0.4-2,0.1c-0.4,0.4-1,0.5-1.5,0.4c-1.1,0-2-0.6-2-1.5V13.3h3.7c0.8,0,1.4-0.7,1.4-1.4 c0-0.7-0.7-1.3-1.4-1.3h-3.7V7.7c0-0.7-0.7-1.3-1.4-1.3c0,0,0,0,0,0c-0.7,0-1.4,0.5-1.4,1.3v2.9h-0.7c-0.7,0-1.3,0.6-1.4,1.3 c0,0.8,0.6,1.4,1.4,1.4h0.7v10.2c0,2.3,2.2,4.3,4.9,4.3c1.4,0,2.7-0.5,3.7-1.5c0.2-0.3,0.4-0.6,0.3-1C65.2,25,65,24.7,64.7,24.5 L64.7,24.5z"></path>
+                  <path class="change-color" d="M82.7,10.5c-0.7,0-1.4,0.5-1.4,1.2v1c-1.8-1.5-4.1-2.3-6.4-2.3c-5.3,0-9.2,3.7-9.2,8.6s4,8.6,9.2,8.6 c2.4,0,4.6-0.8,6.4-2.3v1c0.1,0.8,0.8,1.3,1.6,1.3c0.7-0.1,1.2-0.6,1.3-1.3V11.8C84.1,11.1,83.4,10.5,82.7,10.5z M81.3,19.2 c0,3.3-2.8,5.8-6.4,5.8c-3.7,0-6.4-2.5-6.4-5.8c0-3.3,2.8-5.9,6.4-5.9C78.5,13.3,81.3,15.8,81.3,19.2z"></path>
+                  <path class="change-color" d="M93,17.6L93,17.6c-3-0.6-3.7-1.1-3.7-2.2c0-0.9,0.9-2.3,3.2-2.3c1.7,0,2.6,0.7,3,1.4c0.4,0.6,1.2,0.9,1.9,0.6 c0.3-0.1,0.6-0.4,0.8-0.7c0.1-0.3,0.1-0.7-0.1-1c-0.9-1.7-3-2.8-5.6-2.8c-1.6-0.1-3.2,0.5-4.5,1.5c-1,0.8-1.6,2-1.6,3.3 c0,3.4,3.2,4.1,5.8,4.7c3,0.7,3.9,1.1,3.9,2.6c0,1.2-1.3,2.5-3.6,2.5c-1.9,0-3-0.8-3.4-1.5C88.8,23,88,22.8,87.3,23 c-0.3,0.1-0.6,0.4-0.8,0.8c-0.1,0.3-0.1,0.7,0.1,0.9c1,1.8,3.2,3,5.9,3c1.7,0.1,3.4-0.5,4.8-1.6c1-0.9,1.7-2.1,1.7-3.5 C99,18.9,95.5,18.1,93,17.6L93,17.6z"></path>
+                  <path class="change-color" d="M110.4,19.5c2.9-2,4.2-5.1,4.9-7.3c0.1-0.3,0.1-0.6-0.1-0.9c-0.2-0.3-0.5-0.6-0.9-0.7c-0.4-0.1-0.8,0-1.1,0.1 c-0.3,0.2-0.5,0.4-0.6,0.7c-0.7,2.3-1.9,5.1-4.8,6.5c-0.1,0-0.1,0.1-0.2,0.1c-1.1,0.5-2.2,0.8-3.4,0.9V6.7 c-0.1-0.8-0.8-1.3-1.6-1.3c-0.7,0.1-1.2,0.6-1.3,1.3v19.8c0.1,0.8,0.8,1.3,1.6,1.3c0.7-0.1,1.2-0.6,1.3-1.3v-5 c1.3-0.1,2.5-0.3,3.7-0.8l5.4,6.5c0.3,0.3,0.7,0.5,1.1,0.5c0.3,0,0.6-0.1,0.8-0.2l0,0c0.3-0.2,0.5-0.5,0.6-0.8c0.1-0.3,0-0.7-0.3-1 L110.4,19.5z"></path>
+                  <path class="change-color" d="M157.4,10.5c-0.7-0.1-1.4,0.5-1.5,1.2v8.6c0,2.7-2.1,4.9-4.8,4.9c0,0-0.1,0-0.1,0c-2.6,0.1-4.7-2-4.7-4.5 c0-0.1,0-0.2,0-0.3v-8.6c0-0.7-0.6-1.3-1.4-1.2c-0.7-0.1-1.4,0.5-1.5,1.2v8.6c0,1.9,0.8,3.8,2.1,5.2c1.4,1.5,3.4,2.3,5.5,2.2 c1.8,0,3.5-0.6,4.9-1.7v0.5c0.1,0.7,0.7,1.3,1.5,1.2c0.7,0,1.3-0.5,1.4-1.2c0,0,0,0,0,0V11.8C158.7,11.1,158.1,10.5,157.4,10.5 L157.4,10.5z"></path>
+                  <path class="change-color" d="M132.4,10.5c-0.7-0.1-1.4,0.5-1.5,1.2v8.6c0,2.7-2.1,4.9-4.8,4.9c0,0-0.1,0-0.1,0c-2.6,0.1-4.7-2-4.7-4.5 c0-0.1,0-0.2,0-0.3v-8.6c0-0.7-0.7-1.3-1.4-1.2c-0.7-0.1-1.4,0.5-1.5,1.2v8.6c0,1.9,0.8,3.8,2.1,5.2c1.4,1.5,3.4,2.3,5.5,2.2 c1.8,0,3.5-0.6,4.9-1.7v0.5c0.1,0.7,0.7,1.3,1.5,1.2c0.7,0,1.3-0.5,1.4-1.2c0,0,0,0,0,0V11.8C133.7,11.1,133.1,10.5,132.4,10.5 L132.4,10.5z"></path>
+                  </g>
+                  <path id="prefix__Path_17407" style="fill:#60fffb" d="M45,0.8c-1.6-1.3-4.5-0.3-6.8,1.7c-3.4,3-12.9,13.5-18.5,14.1c-3.1,0.4-6-2.7-9.1-5.3c0,0-4.3-4.4-7.9-2.6 c-1.1,0.5-1.9,1.5-2.2,2.7C0,12.7,0,14.8,1.5,17.5c0,0,5.8,9.6,13.8,14.7c2.3,1.6,5.3,1.9,7.9,0.7c1.1-0.6,2.2-1.3,3.2-2 C34.6,24.6,42.6,12.8,44.9,9c0.6-1,1.1-2.1,1.4-3.3C46.7,3.5,46.3,1.9,45,0.8L45,0.8z"></path>
+                </svg>
+              </a>
+            </div>
+            <div class="navbar-menu-button">
+              <button type="button" class="navbar-toggle">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar-first"></span>
+                <span class="icon-bar-middle"></span>
+                <span class="icon-bar-last"></span>
+              </button>
+            </div>  
+            <div class="navbar-menu">
+              <div class="navbar-menu-left">
+                <ul class="navbar-menu-left-content">
+                  <li class="nav-menu-left-items">
+                    <span class="nav-menu-left-first-item nav-span-l" >
+                      Why Taskulu 
+                    </span>
+                  </li>
+                  <li class="nav-menu-left-items">
+                    <span class="nav-menu-left-second-item nav-span-l">
+                      Solutions
+                    </span>
+                  </li>
+                  <li class="nav-menu-left-items">
+                    <span class="nav-menu-left-third-item nav-span-l">
+                      Pricing
+                    </span>
+                  </li>
+                  <li class="nav-menu-left-items">
+                    <span class="nav-menu-left-fourth-item nav-span-l">
+                      Use cases
+                    </span>
+                  </li>
+                </ul> 
+              </div>
+              <div class="navbar-menu-right">
+                <ul class="navbar-menu-right-content">
+                  <li class="nav-menu-right-items">
+                    <svg xmlns="http://www.w3.org/2000/svg" id="prefix__icon_support" width="32" height="32" data-name="icon/support" viewBox="0 0 32 32">
+                      <defs>
+                          <style>
+                              .prefix__cls-2{fill:#1e3a58}.prefix__cls-3{fill:none}
+                          </style>
+                      </defs>
+                      <g id="prefix__Group_10705" data-name="Group 10705" transform="translate(-503.576 -1424.417)">
+                          <g id="prefix__icon_top_Menu_Items_support" data-name="icon top Menu Items support">
+                              <g id="prefix__Holder">
+                                  <g id="prefix__Header_Icons_download_app_icon" data-name="Header Icons download app icon">
+                                      <g id="prefix__Header_Icons_support_icon_background" data-name="Header Icons support icon background">
+                                          <path id="prefix__Path_17470" d="M529.4 1436.72a6.993 6.993 0 0 0-.63-3.53 4.412 4.412 0 0 0-1.82-1.86 6.456 6.456 0 0 0-3.41-.64h-7.77a5.362 5.362 0 0 0-.56-.02 6.472 6.472 0 0 0-2.88.66 4.507 4.507 0 0 0-1.81 1.86 6.949 6.949 0 0 0-.62 3.51v11.26a2.2 2.2 0 0 0 2.17 2.23 2.128 2.128 0 0 0 1.66-.8l1.63-2a3.491 3.491 0 0 1 .53-.56 1.1 1.1 0 0 1 .36-.18 3.027 3.027 0 0 1 .79-.05h6.48a6.454 6.454 0 0 0 3.44-.65 4.279 4.279 0 0 0 1.81-1.86 6.936 6.936 0 0 0 .63-3.51zm-1.94 6.64a2.922 2.922 0 0 1-1.21 1.25 5.167 5.167 0 0 1-2.76.46h-6.46a4.154 4.154 0 0 0-1.17.11 2.6 2.6 0 0 0-.82.4 4.354 4.354 0 0 0-.82.84l-1.64 2.03a.667.667 0 0 1-1.18-.44v-11.31a5.6 5.6 0 0 1 .43-2.79 3 3 0 0 1 1.21-1.26 5.265 5.265 0 0 1 2.76-.46h7.72a5.094 5.094 0 0 1 2.71.45l.02.01a2.928 2.928 0 0 1 1.2 1.24 5.679 5.679 0 0 1 .45 2.84v3.83a5.647 5.647 0 0 1-.44 2.8z" data-name="Path 17470" style="fill:transparent"/>
+                                      </g>
+                                      <g id="prefix__Header_Icons_support_icon" data-name="Header Icons support icon">
+                                          <g id="prefix__Combined_Shape" data-name="Combined Shape">
+                                              <path id="prefix__Path_17471" d="M529.852 1436.868a7.173 7.173 0 0 0-.645-3.616 4.517 4.517 0 0 0-1.862-1.905 6.6 6.6 0 0 0-3.489-.656h-7.95a5.479 5.479 0 0 0-.573-.02 6.615 6.615 0 0 0-2.947.676 4.614 4.614 0 0 0-1.852 1.905 7.126 7.126 0 0 0-.634 3.6v11.535a2.252 2.252 0 0 0 2.22 2.284 2.177 2.177 0 0 0 1.7-.819l1.668-2.049a3.574 3.574 0 0 1 .542-.574 1.13 1.13 0 0 1 .368-.184 3.092 3.092 0 0 1 .808-.051h6.63a6.6 6.6 0 0 0 3.52-.666 4.381 4.381 0 0 0 1.852-1.905 7.114 7.114 0 0 0 .645-3.6zm-1.985 6.8a2.991 2.991 0 0 1-1.238 1.281 5.28 5.28 0 0 1-2.824.471H517.2a4.245 4.245 0 0 0-1.2.113 2.663 2.663 0 0 0-.839.41 4.459 4.459 0 0 0-.839.861l-1.678 2.079a.683.683 0 0 1-1.207-.451v-11.586a5.744 5.744 0 0 1 .44-2.858 3.073 3.073 0 0 1 1.238-1.291 5.381 5.381 0 0 1 2.824-.471h7.9a5.207 5.207 0 0 1 2.773.461l.02.01a3 3 0 0 1 1.228 1.27 5.825 5.825 0 0 1 .46 2.909v3.923a5.792 5.792 0 0 1-.453 2.871z" class="prefix__cls-2" data-name="Path 17471" transform="translate(-.3 -.25)"/>
+                                              <path id="prefix__Path_17472" d="M527.9 1440.56v-3.83a5.679 5.679 0 0 0-.45-2.84 2.928 2.928 0 0 0-1.2-1.24l-.02-.01a5.094 5.094 0 0 0-2.71-.45h-7.72a5.265 5.265 0 0 0-2.76.46 3 3 0 0 0-1.21 1.26 5.6 5.6 0 0 0-.43 2.79v11.31a.667.667 0 0 0 1.18.44l1.64-2.03a4.354 4.354 0 0 1 .82-.84 2.6 2.6 0 0 1 .82-.4 4.154 4.154 0 0 1 1.17-.11h6.46a5.167 5.167 0 0 0 2.76-.46 2.922 2.922 0 0 0 1.21-1.25 5.647 5.647 0 0 0 .44-2.8zm-5.25-1.12a1 1 0 1 1 1-1 1 1 0 0 1-1 1zm-6 0a1 1 0 1 1 1-1 1 1 0 0 1-1 1zm3 0a1 1 0 1 1 1-1 1 1 0 0 1-1 1z" class="prefix__cls-3" data-name="Path 17472"/>
+                                              <circle id="prefix__Ellipse_539" cx="1" cy="1" r="1" class="prefix__cls-2" data-name="Ellipse 539" transform="translate(521.65 1437.44)"/>
+                                              <circle id="prefix__Ellipse_540" cx="1" cy="1" r="1" class="prefix__cls-2" data-name="Ellipse 540" transform="translate(518.65 1437.44)"/>
+                                              <circle id="prefix__Ellipse_541" cx="1" cy="1" r="1" class="prefix__cls-2" data-name="Ellipse 541" transform="translate(515.65 1437.44)"/>
+                                          </g>
+                                      </g>
+                                  </g>
+                              </g>
+                          </g>
+                      </g>
+                      <g id="prefix__icon_top_Menu_Items_Login" data-name="icon top Menu Items Login" transform="translate(-468.069 -1425.44)">
+                          <path id="prefix__Header_Icons_support_icon_background-2" d="M0 0H32V32H0z" class="prefix__cls-3" data-name="Header Icons support icon background-2" transform="translate(468.069 1425.44)"/>
+                      </g>
+                    </svg>                
+                    <a href="https://taskulu.com/help/frequently-asked-questions" class="support">Support</a>
+                  </li>
+                  <li class="nav-menu-right-items">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32">
+                      <defs>
+                          <style>
+                              .prefix__cls-1{fill:none}
+                          </style>
+                      </defs>
+                      <g id="prefix__Group_16523" data-name="Group 16523" transform="translate(-313 -47)">
+                          <g id="prefix__icon_Login" data-name="icon/Login" transform="translate(313 47)">
+                              <path id="prefix__Header_Icons_support_icon_background-2" d="M0 0H32V32H0z" class="prefix__cls-1" data-name="Header Icons support icon background-2"/>
+                              <g id="prefix__Group_12182" data-name="Group 12182" transform="translate(-467.02 -1424.54)">
+                                  <g id="prefix__Rectangle_2457" data-name="Rectangle 2457" transform="translate(473.02 1429.54)">
+                                      <path id="prefix__Path_17473" d="M490.207 1437.229h-1.055v-1.929a5.685 5.685 0 0 0-5.719-5.624h-.01a5.676 5.676 0 0 0-5.719 5.614v1.936h-1.272a3.094 3.094 0 0 0-3.113 3.06v8.34a3.085 3.085 0 0 0 3.113 3.05h13.775a3.085 3.085 0 0 0 3.113-3.05v-8.34a3.094 3.094 0 0 0-3.113-3.057zm-10.951-1.946a4.134 4.134 0 0 1 4.168-4.084h.01a4.149 4.149 0 0 1 4.168 4.094v1.936h-8.345zm12.513 13.346a1.545 1.545 0 0 1-1.562 1.53h-13.774a1.545 1.545 0 0 1-1.561-1.53v-8.34a1.553 1.553 0 0 1 1.561-1.54h13.775a1.553 1.553 0 0 1 1.562 1.54z" data-name="Path 17473" transform="translate(-473.32 -1429.68)" style="fill:#1e3a58"/>
+                                      <path id="prefix__Path_17474" d="M487.13 1435.22v1.91h-8.07v-1.92a4.037 4.037 0 0 1 4.03-4.03h.01a4.052 4.052 0 0 1 4.03 4.04z" class="prefix__cls-1" data-name="Path 17474" transform="translate(-472.467 -1429.54)"/>
+                                      <path id="prefix__Path_17475" d="M492.16 1440.15v8.23a1.557 1.557 0 0 1-1.6 1.51h-14.138a1.557 1.557 0 0 1-1.6-1.51v-8.23a1.565 1.565 0 0 1 1.6-1.52h14.135a1.565 1.565 0 0 1 1.603 1.52z" class="prefix__cls-1" data-name="Path 17475" transform="translate(-473.02 -1429.54)"/>
+                                  </g>
+                              </g>
+                          </g>
+                      </g>
+                  </svg>
+                    <a href="https://taskulu.com/account/login?rdr=%2Fa" class="login">Login</a>
+                  </li>
+                  <li class="nav-menu-right-button">
+                    <a href="https://taskulu.com/account/login?go=register" class="login-button">Get Started</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+    </nav>
+    <main>
+      <header>
+        <div class="header-container">
+          <div data-drupal-messages-fallback="" class="hidden"></div>
+        </div>
+      </header>
+      <div class="region-content-first">
+        <div class="region-first-container">
+          <div class="region-first-block">
+            <div class="region-first-block-header-content">
+              <h1>Better Teamwork, More Work Done, All in One</h1>
+            </div>
+            <div class="region-first-block-body-content">
+              <p>Taskulu is an Easy-to-Use Online Platform for Project and Task Management for Everyone.</p>
+            </div>
+            <div class="region-first-block-button-content">
+              <a href="https://taskulu.com/account/login?go=register" class="region-first-button">
+                Get Started for Free
+              </a>
+            </div>
+          </div>
+          <div class="block-taskulu-screenshot" data-drupal-settingstray="editable">
+            <picture>
+              <img src="Asset 4@3x.png" class="taskulu-screenshot">
+            </picture>  
+          </div>
+        </div>
+      </div>
+      <div class="region-content-second">
+        <div class="region-second-container">
+          <div class="region-second-container-background"></div>
+          <div class="region-second-block-first">
+            <div class="region-second-block-first-container">
+              <h2 class="region-second-block-first-title">
+                <strong>
+                  A
+                  <em>
+                    complete desk
+                  </em>
+                   at your disposal
+                </strong>
+              </h2>
+              <p>Stay on top of&nbsp;your goals, projects, and daily tasks</p>
+            </div>
+          </div>
+          <div class="region-second-block-second">
+            <div class="region-second-block-second-container">
+              <div class="container-card">
+                <div class="card-content">
+                  <div class="card-content-field">
+                    <div class="field-icon-container">
+                      <div class="field-icon">
+                      <img src="https://taskulu.com/sites/default/files/2020-04/icon-planing.svg">
+                      </div>
+                    </div>
+                    <div class="field-text">
+                      <div class="field-text-title">
+                        <p>Get An Overview Of All Projects</p>
+                      </div>
+                      <div class="field-text-paragraph">
+                        <p>
+                          Keep everything in one place. Set short-term or long-term goals and increase productivity by categorizing tasks and setting deadlines.
+                        </p>
+                      </div>
+                    </div>  
+                  </div>
+                </div>
+              </div>
+              <div class="container-card">
+                <div class="card-content">
+                  <div class="card-content-field">
+                    <div class="field-icon-container">
+                      <div class="field-icon">
+                      <img src="https://taskulu.com/sites/default/files/2020-04/icon-integrated.svg">
+                      </div>
+                    </div>  
+                    <div class="field-text">
+                      <div class="field-text-title">
+                        <p>Everything You Need In One Place</p>
+                      </div>
+                      <div class="field-text-paragraph">
+                        <p>
+                          Taskulu takes care of&nbsp;all your&nbsp;project management and team communication requirements&nbsp;and integrates well with the other tools you use.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="container-card">
+                <div class="card-content">
+                  <div class="card-content-field">
+                    <div class="field-icon-container">
+                      <div class="field-icon">
+                      <img src="https://taskulu.com/sites/default/files/2020-04/icon-interaction.svg">
+                      </div>
+                    </div>  
+                    <div class="field-text">
+                      <div class="field-text-title">
+                        <p>Experience Teamwork At Its Best</p>
+                      </div>
+                      <div class="field-text-paragraph">
+                        <p>
+                          Collaborate with&nbsp;the team, minimize misunderstandings and communicate effectively with others.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="container-card">
+                <div class="card-content">
+                  <div class="card-content-field">
+                    <div class="field-icon-container">
+                      <div class="field-icon">
+                      <img src="https://taskulu.com/sites/default/files/styles/d01_square/public/2021-01/icon-WorkwithAnyTeam%402x.png?h=f901e065&amp;itok=nUKGupl9">
+                      </div>
+                    </div>  
+                    <div class="field-text">
+                      <div class="field-text-title">
+                        <p>Work With Any Team, In Any Industry</p>
+                      </div>
+                      <div class="field-text-paragraph">
+                        <p>
+                          It doesn't matter if you are a freelancer or working in&nbsp;a company with hundreds of employees; Taskulu is an ideal&nbsp;tool for&nbsp;teams of all&nbsp;sizes.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="region-second-block-third">
+            <div class="region-second-block-third-container">
+              <div class="region-second-block-third-content">
+                <div class="block-third-text">
+                  Thousands of 
+                  <span style="color: #ebb570; display: inline;">
+                    <i> brands </i>
+                  </span>
+                  manage their teams, tasks and&nbsp;projects with&nbsp;Taskulu every day
+                </div>
+              </div>
+            </div>
+            <div class="region-second-block-third-button">
+              <a class="second-button" href="https://taskulu.com/account/login?go=register">
+                Get Started Now
+              </a>
+            </div>
+          </div>
+          <div class="region-second-block-fourth">
+            <div class="block-fourth-first-paragraph-container">
+              <div class="block-fourth-first-paragraph-content">
+                <div class="first-paragraph-text">
+                  <div class="first-paragraph-text-content">
+                    <h2 class="first-paragraph-text-content-title">
+                      <span style="font-size:40px;">
+                        <b>
+                          <em>
+                            Not Happy
+                          </em>
+                          With Your Old Project Management Tools?
+                        </b>
+                      </span>
+                    </h2>
+                    <p>
+                      Still working your head around many tools to manage teams & projects? Try Taskulu, the all-in-one project management tool, that brings everything you need under a single roof. 
+                    </p>
+                  </div>
+                </div>
+                <div class="first-paragraph-img-container">
+                  <div class="first-paragraph-img-content">
+                    <div class="first-paragraph-img">
+                      <img src="Asset-2@3x-en.png" width="750" height="702">
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="block-fourth-second-paragraph-container">
+              <div class="block-fourth-second-paragraph-content">
+                <div class="second-paragraph-img-container">
+                  <div class="second-paragraph-img-content">
+                    <div class="second-paragraph-img">
+                      <img src="Asset-1@3x-e.png" width="750" height="673">
+                    </div>
+                  </div>
+                </div>
+                <div class="second-paragraph-text">
+                  <div class="second-paragraph-text-content">
+                    <h2 class="second-paragraph-text-content-title">
+                      <span style="font-size:40px;">
+                        <b>
+                          Taskulu is&nbsp;
+                          <em>
+                            Teamwork!
+                          </em>
+                        </b>
+                      </span>
+                    </h2>
+                    <p>
+                      &nbsp;With its range of features, such as daily reporting, task management, online team collaboration, and time-logs, Taskulu helps you get things done.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>    
+          </div>
+          <div class="region-second-block-fifth">
+            <div class="region-second-block-fifth-container">
+              <div class="region-second-block-fifth-content">
+                <p class="block-fifth-title">
+                  <strong>
+                    Flexibility&nbsp;and&nbsp;
+                    <em>
+                      exceptional features 
+                    </em>
+                  </strong>
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="region-second-block-sixth">
+            <div class="region-second-block-sixth-container">
+              <div class="region-second-block-sixth-content">
+                <div class="region-second-block-sixth-view-element">
+                  <div class="block-sixth-view-element-container">
+                    <div class="block-sixth-slick-list-container">
+                      <div class="block-sixth-slick-list-content-flex">
+                        <div class="slick-list-other-features">
+                          <img class="silck-list-icon" src="icons-otherfeature.svg" >
+                          <div class="other-features-text-title">
+                            Other Features
+                          </div>
+                        </div>
+                        <div class="slick-list-other-icon">
+                          <img class="slick-list-other-icon-img" fill="#acb1c0" src="icons-analayzer.svg">
+                          <div class="other-icon-text-title">Taskulu Analytics</div>
+                        </div>
+                        <div class="slick-list-other-icon">
+                          <img class="slick-list-other-icon-img" fill="#acb1c0" src="icon-onlineMeeting.svg" width="100">
+                          <div class="other-icon-text-title">Online Communication</div>
+                        </div>
+                        <div class="slick-list-other-icon">
+                          <img class="slick-list-other-icon-img" fill="#acb1c0" src="icon_taskManagement.svg" width="100">
+                          <div class="other-icon-text-title">Task Management</div>
+                        </div>
+                      </div>
+                    </div> 
+                  </div>
+                </div>
+                <div class="other-features-block-title">
+                  <p class="other-features-title">Other Features</p>
+                </div>
+                <div class="other-features-img-and-alternative">
+                  <div class="other-features-block-img">
+                    <div class="other-features-block-img-container">
+                      <div class="other-features-block-img-content">
+                        <img class="other-features-img" src="xGroup,P2018.png" width="1920" height="936" >
+                      </div>
+                    </div>
+                  </div>
+                  <div class="slick-controller-container">
+                    <div class="slick-controller-content">
+                      <div class="slick-controller-position-line-and-dots">
+                        <hr class="before-line">
+                        <div class="dots">
+                          <span class="dot"></span>
+                          <span class="dot"></span>
+                          <span class="dot"></span>
+                          <span class="dot"></span>
+                        </div>
+                        <hr class="after-line">
+                      </div>
+                      <div class="slick-controller-position-prev-and-next">
+                        <span class="perv-dot"></span>
+                        <span class="next-dot"></span>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="other-features-list-and-alternative">
+                    <div class="other-features-list">
+                      <ul>
+                        <li>Create personal and team chat rooms</li>
+                        <li>Group video communication</li>
+                        <li>Leave comments and interact with team members</li>
+                        <li>Create tasks from conversations</li>
+                      </ul>
+                    </div>
+                    <div class="other-feature-alternative">
+                      <div class="alternative-title">
+                        Alternative:
+                      </div>
+                      <div class="alternative-refrence">
+                        <div class="logo">
+                          <img src="monday-logo.svg" class="monday-logo">
+                        </div>
+                        <div class="logo">
+                          <img src="trello-logo.svg" class="trella-logo">
+                        </div>
+                        <div class="logo">
+                          <img src="wrike-logo.svg" class="wrike-logo">
+                        </div>
+                      </div>
+                    </div>
+                  </div>  
+                </div>
+                <div class="slick-controller-container-two">
+                  <div class="slick-controller-content">
+                    <div class="slick-controller-position-line-and-dots">
+                      <hr class="before-line">
+                      <div class="dots">
+                        <span class="dot"></span>
+                        <span class="dot"></span>
+                        <span class="dot"></span>
+                        <span class="dot"></span>
+                      </div>
+                      <hr class="after-line">
+                    </div>
+                    <div class="slick-controller-position-prev-and-next">
+                      <span class="perv-dot"></span>
+                      <span class="next-dot"></span>
+                    </div>
+                  </div>
+                </div>  
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="region-content-third">
+        <div class="region-content-third-container">
+          <div class="region-third-border-title">
+            <div class="region-third-title">
+              <h2>
+                <strong>
+                  Stay up to date with the latest news
+                </strong>
+              </h2>
+            </div>
+          </div>
+          <div class="region-third-content">
+            <div class="region-third-first-block">
+              <div class="region-third-first-block-content">
+                <div class="region-third-first-block-first-card">
+                  <div class="region-third-first-card-container">
+                    <div class="region-third-first-card-flex-content">
+                      <div class="first-card-flex-border">
+                        <div class="first-card-flex-body">
+                          <div class="first-card-top-texts">
+                            <div class="project-management-content">
+                              <div class="project-management-txt">
+                                <a href="https://taskulu.com/blog/category/project-management">Project Management</a>
+                              </div>
+                            </div>      
+                            <h3 class="first-card-title-container">
+                              <a class="first-card-title" href="https://taskulu.com/blog/ten-ways-improve-team-efficiency-and-productivity">
+                                Ten Ways to Improve Team Efficiency and Productivity
+                              </a>
+                            </h3>
+                          </div>
+                          <div class="first-card-img">
+                            <a href="https://taskulu.com/blog/ten-ways-improve-team-efficiency-and-productivity">
+                              <img src="xthe-team-is-working.jpg,qh=255f358b,aamp,3Bitok=FMmvymsF.pagespeed.ic.0Kst4WY-50.webp" width="600" height="260">
+                            </a>
+                          </div>
+                          <div class="first-card-button-container">
+                            <a href="https://taskulu.com/blog/ten-ways-improve-team-efficiency-and-productivity" class="first-card-button">
+                              Read the article
+                            </a>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="region-third-first-block-second-card">
+                  <div class="region-third-second-card-container">
+                    <div class="region-third-second-card-flex-content">
+                      <div class="second-card-flex-border">
+                        <div class="second-card-flex-body">
+                          <div class="second-card-top-texts">
+                            <div class="project-management-content">
+                              <div class="project-management-txt">
+                                <a href="https://taskulu.com/blog/category/project-management">Project Management</a>
+                              </div>
+                            </div>      
+                            <h3 class="second-card-title-container">
+                              <a class="second-card-title" href="https://taskulu.com/blog/why-you-need-hire-more-soft-skills-and-less-experience-0">
+                                Why you need to hire more for soft skills and less for experience.
+                              </a>
+                            </h3>
+                          </div>
+                          <div class="second-card-img">
+                            <a href="https://taskulu.com/blog/ten-ways-improve-team-efficiency-and-productivity">
+                              <img src="xthis-must-be-the-place.jpg,qh=255f358b,aamp,3Bitok=40X5GV58.pagespeed.ic.luIBGZpB0N.webp" width="600" height="260">
+                            </a>
+                          </div>
+                          <div class="second-card-button-container">
+                            <a href="https://taskulu.com/blog/why-you-need-hire-more-soft-skills-and-less-experience-0" class="second-card-button">
+                              Read the article
+                            </a>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="region-third-first-block-third-card">
+                  <div class="region-third-third-card-container">
+                    <div class="region-third-third-card-flex-content">
+                      <div class="third-card-flex-border">
+                        <div class="third-card-flex-body">
+                          <div class="third-card-top-texts">
+                            <div class="project-management-content">
+                              <div class="project-management-txt">
+                                <a href="https://taskulu.com/blog/category/project-management">Project Management</a>
+                              </div>
+                            </div>      
+                            <h3 class="third-card-title-container">
+                              <a class="third-card-title" href="https://taskulu.com/blog/why-you-need-hire-more-soft-skills-and-less-experience-0">
+                                Why you need to hire more for soft skills and less for experience.
+                              </a>
+                            </h3>
+                          </div>
+                          <div class="third-card-img">
+                            <a href="https://taskulu.com/blog/ten-ways-improve-team-efficiency-and-productivity">
+                              <img src="xthis-must-be-the-place.jpg,qh=255f358b,aamp,3Bitok=40X5GV58.pagespeed.ic.luIBGZpB0N.webp" width="600" height="260">
+                            </a>
+                          </div>
+                          <div class="third-card-button-container">
+                            <a href="https://taskulu.com/blog/why-you-need-hire-more-soft-skills-and-less-experience-0" class="second-card-button">
+                              Read the article
+                            </a>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="region-fourth-block">
+            <div class="region-fourth-block-title-border">
+              <div class="region-fourth-block-title">
+                <h2>
+                  <strong>
+                    Companies that trust us
+                  </strong>
+                </h2>
+              </div>
+            </div>
+            <div class="companies-logo-border">
+              <div class="region-fourth-companies-logo">
+                <div class="companies-logo">
+                  <img src="xTaskuluWebsiteLogo4.jpg,qitok=Vf4q-86j.pagespeed.ic.4I89IJomZB.webp" alt="گروه مالی سپهر صادرات">
+                </div>
+                <div class="companies-logo">
+                  <img src="xTaskuluWebsiteLogo1.jpg,qitok=s-BLeEiv.pagespeed.ic.E2kjCe_bPB.webp" alt="شرکت بهار ارتباط گستر (بهارتل)">
+                </div>
+                <div class="companies-logo">
+                  <img src="xTaskuluWebsiteLogo2.jpg,qitok=OyFpzHA-.pagespeed.ic.Lw9e5CRcrA.webp" alt="شرکت دانش بنیان نواندیشان مدیانام">
+                </div>
+              </div>  
+              <div class="region-fourth-companies-logo-line-second">  
+                <div class="companies-logo-second">
+                  <img src="xTaskuluWebsiteLogo3.jpg,qitok=ZYs0ZBut.pagespeed.ic.ZeZe-HXFwg.webp" alt="تجارت بین الملل دانا سپند">
+                </div>
+              </div>
+            </div>
+            <div class="teamwork-power">
+              <div class="teamwork-power-text">
+                <h2 class="teamwork-power-title">
+                  Increase your&nbsp;
+                  <br>
+                  <strong>
+                    TEAMWORK POWER
+                  </strong>
+                </h2>
+                <p>
+                  Improve your team's performance and do more with greater success
+                </p>
+              </div>
+              <div class="teamwork-power-button">
+                <a class="teamwork-power-button-start">
+                  Start now
+                </a>
+              </div>
+            </div>  
+          </div>
+        </div>  
+      </div>
+    </main>
+    <footer>
+      <div class="footer-container">
+        <div class="footer-logo">
+          <img src="https://taskulu.com/sites/default/files/2020-06/logo-taskulu-en.svg">
+        </div>
+        <div class="footer-menu-block-container">
+          <div class="footer-menu-block-content">
+            <div class="footer-nav-list">
+              <div class="block-menu-footer-info footer">
+                <ul class="footer-nav">
+                  <li><h5 class="footer-menu-title">More info</h5>
+                  </li>
+                  <li class="footer-nav-item">
+                    <a href="https://taskulu.com/help/frequently-asked-questions">FAQ</a>
+                  </li>
+                  <li class="footer-nav-item">
+                    <a href="https://taskulu.com/terms">Terms and Conditions</a>
+                  </li>
+                  <li class="footer-nav-item">
+                    <a href="https://taskulu.com/privacy">Privacy Policy</a>
+                  </li>
+                </ul>
+              </div>
+              <div class="block-menu-footer-contact footer">
+                <ul class="footer-nav">
+                  <li><h5 class="footer-menu-title"> Stay with us</h5>
+                  </li>
+                  <li class="footer-nav-item">
+                    <a href="https://taskulu.com/blog">Blog</a>
+                  </li>
+                  <li class="footer-nav-item">
+                    <a href="https://taskulu.com/contact">Contact us</a>
+                  </li>
+                </ul>
+              </div>
+              <div class="block-menu-taskulu-footer footer">
+                <ul class="footer-nav">
+                  <li><h5 class="footer-menu-title">Quick access</h5>
+                  </li>
+                  <li class="footer-nav-item">
+                    <a href="https://taskulu.com/pricing">Plans and Pricing</a>
+                  </li>
+                  <li class="footer-nav-item">
+                    <a href="https://taskulu.com/use-cases">Use cases</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="sign-up-subscribe-form">
+              <h5>Newsletter</h5>
+              <form action="/action_page.php" class="form">
+                <input type="text" name="Enter-your-email" value="" size="55" maxlength="128" placeholder="Enter your email" class="form-email">
+                <button type="button" class="form-submit-wrapper"><p>Subscribe</p></button>
+              </form>
+              <div class="social-media">
+                <div class="social-media-instagram social">
+                  <a href="https://www.instagram.com/taskulu/" target="_blank">
+                    <i class="fa fa-instagram" aria-hidden="true"></i>
+                  </a>
+                </div>
+                <div class="social-media-twitter social">
+                  <a href="https://twitter.com/taskulu" target="_blank">
+                    <i class="fa fa-twitter" aria-hidden="true"></i>
+                  </a>
+                </div>
+                <div class="social-media-linkedin social">
+                  <a href="https://www.linkedin.com/company/%D8%AA%D8%B3%DA%A9%D9%88%D9%84%D9%88/" target="_blank">
+                    <i class="fa fa-linkedin" aria-hidden="true"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="footer-copyright">
+        <div class="footer-copyright-content">
+          <p>
+            All rights reserved, including logos, images and content &copy 2022
+          </p>
+        </div>
+      </div>
+    </footer>
+    <div class="chat-closed">
+      <div class="chat-icon">
+        <svg height="30" width="35" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><defs><filter id="a" height="138.7%" width="131.4%" x="-15.7%" y="-15.1%"><feMorphology in="SourceAlpha" operator="dilate" radius="1" result="shadowSpreadOuter1"/><feOffset dy="1" in="shadowSpreadOuter1" result="shadowOffsetOuter1"/><feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="1"/><feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"/><feColorMatrix in="shadowBlurOuter1" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.07 0"/></filter><path id="b" d="M14.23 20.46l-9.65 1.1L3 5.12 30.07 2l1.58 16.46-9.37 1.07-3.5 5.72-4.55-4.8z"/></defs><g fill="none" fill-rule="evenodd"><use fill="#000" filter="url(#a)" xlink:href="#b"/><use fill="#fff" stroke="#fff" stroke-width="2" xlink:href="#b"/></g></svg>
+      </div>
+    </div>
+  </div>
+</body>

@@ -1,0 +1,83 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="68.25" height="68.588" viewBox="0 0 68.25 68.588">
+    <defs>
+        <filter id="prefix__Ellipse_187" width="35" height="35" x="16.878" y="0" filterUnits="userSpaceOnUse">
+            <feOffset dy="3"/>
+            <feGaussianBlur result="blur" stdDeviation="3"/>
+            <feFlood flood-opacity=".161"/>
+            <feComposite in2="blur" operator="in"/>
+            <feComposite in="SourceGraphic"/>
+        </filter>
+        <filter id="prefix__Ellipse_189" width="35.34" height="35.34" x="0" y="33.248" filterUnits="userSpaceOnUse">
+            <feOffset dy="3"/>
+            <feGaussianBlur result="blur-2" stdDeviation="3"/>
+            <feFlood flood-opacity=".161"/>
+            <feComposite in2="blur-2" operator="in"/>
+            <feComposite in="SourceGraphic"/>
+        </filter>
+        <filter id="prefix__Rectangle_2356" width="34.514" height="32.862" x="33.736" y="34.899" filterUnits="userSpaceOnUse">
+            <feOffset dy="3"/>
+            <feGaussianBlur result="blur-3" stdDeviation="3"/>
+            <feFlood flood-opacity=".161"/>
+            <feComposite in2="blur-3" operator="in"/>
+            <feComposite in="SourceGraphic"/>
+        </filter>
+        <filter id="prefix__Path_11957" width="54.296" height="27.931" x="7.42" y="24.417" filterUnits="userSpaceOnUse">
+            <feOffset dy="3"/>
+            <feGaussianBlur result="blur-4" stdDeviation="3"/>
+            <feFlood flood-opacity=".161"/>
+            <feComposite in2="blur-4" operator="in"/>
+            <feComposite in="SourceGraphic"/>
+        </filter>
+        <filter id="prefix__Path_11958" width="20.5" height="24.134" x="24.196" y="18.51" filterUnits="userSpaceOnUse">
+            <feOffset dy="3"/>
+            <feGaussianBlur result="blur-5" stdDeviation="3"/>
+            <feFlood flood-opacity=".161"/>
+            <feComposite in2="blur-5" operator="in"/>
+            <feComposite in="SourceGraphic"/>
+        </filter>
+        <filter id="prefix__Union_31" width="25.221" height="23.41" x="39.166" y="39.672" filterUnits="userSpaceOnUse">
+            <feOffset dy="3"/>
+            <feGaussianBlur result="blur-6" stdDeviation="3"/>
+            <feFlood flood-opacity=".161"/>
+            <feComposite in2="blur-6" operator="in"/>
+            <feComposite in="SourceGraphic"/>
+        </filter>
+        <style>
+            .prefix__cls-2{fill:#60fffb}.prefix__cls-3{fill:none;stroke-width:2.5px;stroke:#1e3a58}
+        </style>
+    </defs>
+    <g id="prefix__icon_features" data-name="icon/features" transform="translate(4.391 1.065)">
+        <path id="prefix__Path_13474" d="M5 0h52a5 5 0 015 5v52a5 5 0 01-5 5H5a5 5 0 01-5-5V5a5 5 0 015-5z" data-name="Path 13474" style="fill:#fff"/>
+        <g id="prefix__Group_11630" data-name="Group 11630" transform="translate(5.859 6.185)">
+            <g id="prefix__Group_11631" data-name="Group 11631">
+                <g id="prefix__Ellipse_182" data-name="Ellipse 182" transform="translate(16.878)">
+                    <circle id="prefix__Ellipse_186" cx="7" cy="7" r="7" class="prefix__cls-2" data-name="Ellipse 186" transform="translate(3.362 1.815)"/>
+                    <g transform="translate(-27.13 -7.25)">
+                        <circle id="prefix__Ellipse_187-2" cx="7.25" cy="7.25" r="7.25" class="prefix__cls-3" data-name="Ellipse 187" transform="translate(27.13 7.25)"/>
+                    </g>
+                </g>
+                <g id="prefix__Ellipse_183" data-name="Ellipse 183" transform="translate(0 33.248)">
+                    <circle id="prefix__Ellipse_188" cx="7.17" cy="7.17" r="7.17" class="prefix__cls-2" data-name="Ellipse 188" transform="translate(2.75 1.75)"/>
+                    <g transform="translate(-10.25 -40.5)">
+                        <circle id="prefix__Ellipse_189-2" cx="7.42" cy="7.42" r="7.42" class="prefix__cls-3" data-name="Ellipse 189" transform="translate(10.25 40.5)"/>
+                    </g>
+                </g>
+                <g id="prefix__Rectangle_2336" data-name="Rectangle 2336" transform="translate(33.736 34.899)">
+                    <rect id="prefix__Rectangle_2355" width="14.514" height="12.862" class="prefix__cls-2" data-name="Rectangle 2355" rx="2" transform="translate(2.75 .75)"/>
+                    <g transform="translate(-43.99 -42.15)">
+                        <rect id="prefix__Rectangle_2356-2" width="14.014" height="12.362" class="prefix__cls-3" data-name="Rectangle 2356" rx=".25" transform="translate(43.99 42.15)"/>
+                    </g>
+                </g>
+                <g transform="translate(-10.25 -7.25)">
+                    <path id="prefix__Path_11957-2" d="M1600.43 418.04v-.779c0-2.761 2.69-5 6.006-5h21.783c3.317 0 6.006 2.239 6.006 5v2.431" data-name="Path 11957" transform="translate(-1582.76 -380.59)" style="stroke-linecap:round;stroke-linejoin:round;stroke:#1e3a58;fill:none;stroke-width:2.5px"/>
+                </g>
+                <g transform="translate(-10.25 -7.25)">
+                    <path id="prefix__Path_11958-2" d="M1614.466 412.261v-6.134" class="prefix__cls-3" data-name="Path 11958" transform="translate(-1580.02 -381.62)"/>
+                </g>
+            </g>
+            <g transform="translate(-10.25 -7.25)">
+                <path id="prefix__Union_31-2" d="M1624.958 427.558l-.018-.018-.793-.8a.581.581 0 010-.822.593.593 0 01.824 0l.007.007.792.8a.354.354 0 00.493.01l.007-.006 2.617-2.6.715-.722.007-.007a.592.592 0 01.824 0 .581.581 0 01.06.763l.007.014-.773.768-.08.081-.018.018s.609-.606-.023.022l-2.505 2.488-.008.009a1.537 1.537 0 01-2.144 0z" data-name="Union 31" transform="translate(-1575.51 -377.26)" style="fill:#1e3a58;stroke-width:.5px;stroke:#1e3a58"/>
+            </g>
+        </g>
+    </g>
+</svg>

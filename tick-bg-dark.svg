@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" id="prefix__item_patterncroped" width="267" height="150" data-name="item/patterncroped" viewBox="0 0 267 150">
+    <defs>
+        <linearGradient id="prefix__linear-gradient" x1="1.085" x2=".028" y1="1" y2=".948" gradientUnits="objectBoundingBox">
+            <stop offset="0" stop-color="#60fffb"/>
+            <stop offset=".084" stop-color="#60fffb"/>
+            <stop offset=".134" stop-color="#60fffb"/>
+            <stop offset=".226" stop-color="#60fffb"/>
+            <stop offset=".331" stop-color="#56dfe8"/>
+            <stop offset=".427" stop-color="#4dc3d7"/>
+            <stop offset=".51" stop-color="#45aac8"/>
+            <stop offset=".598" stop-color="#3d8eb7"/>
+            <stop offset=".703" stop-color="#336ea4"/>
+            <stop offset=".792" stop-color="#294b8f" stop-opacity=".749"/>
+            <stop offset=".895" stop-color="#223481"/>
+            <stop offset="1" stop-color="#232374"/>
+        </linearGradient>
+    </defs>
+    <path xmlns="http://www.w3.org/2000/svg" id="prefix__Path_17532" d="M1056.909 964.04v50.683c-3.676 4.2-7.042 7.978-10.409 11.736-18.148 20.119-37.38 39.583-58.7 56.387-17.161 13.547-37.418 27.423-59.649 30.39-48.679 6.533-100.55-28.02-130.4-57.928-4.353-4.355-10.6-14.742-6.5-21.005 4.353-6.629 12.75-1.754 17.1 2.235 23.682 21.757 52.3 41.375 84.8 46.482 11.473 1.792 17.974 2.042 29.505-1.253 22.4-6.379 42.159-22.952 59.281-38.022a557.144 557.144 0 0 0 72.012-77.181 7.658 7.658 0 0 1 2.96-2.524z" data-name="Path 17532" transform="translate(-789.909 -964.04)" fill="url(#prefix__linear-gradient)"/>
+</svg>
